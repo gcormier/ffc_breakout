@@ -67,4 +67,45 @@ Wire Wire Line
 	3550 3000 4350 3000
 Wire Wire Line
 	3550 3100 4350 3100
+$Comp
+L Connector:Conn_01x10_Female J4
+U 1 1 5BC0B8DA
+P 5150 3100
+F 0 "J4" H 5177 3076 50  0000 L CNN
+F 1 "FFC_10" H 4900 2500 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Molex_52892-1033_1x10-1MP_P0.5mm_Horizontal" H 5150 3100 50  0001 C CNN
+F 3 "~" H 5150 3100 50  0001 C CNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2700 4950 2700
+Connection ~ 4350 2700
+Wire Wire Line
+	4950 2800 4350 2800
+Connection ~ 4350 2800
+Wire Wire Line
+	4350 2900 4950 2900
+Connection ~ 4350 2900
+Wire Wire Line
+	4950 3000 4350 3000
+Connection ~ 4350 3000
+Wire Wire Line
+	4350 3100 4950 3100
+Connection ~ 4350 3100
+Wire Wire Line
+	4350 3200 4950 3200
+Connection ~ 4350 3200
+Wire Wire Line
+	4350 3300 4950 3300
+Connection ~ 4350 3300
+Wire Wire Line
+	4950 3400 4350 3400
+Connection ~ 4350 3400
+Wire Wire Line
+	4350 3500 4950 3500
+Connection ~ 4350 3500
+Wire Wire Line
+	4950 3600 4350 3600
+Connection ~ 4350 3600
 $EndSCHEMATC
